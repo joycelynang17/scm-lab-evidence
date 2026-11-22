@@ -1,1 +1,1 @@
-Deployment target: staging
+Development target: production
