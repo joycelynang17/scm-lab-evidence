@@ -1,0 +1,8 @@
+Q1. How do Issues and pull requests together support change control?
+GitHub Issues are used to record change requests, tasks, or bugs that need to be addressed. Pull requests allow developers to propose changes and link them to the related Issues. Team members can review the changes, provide feedback, and request modifications before merging. This helps the team track changes and ensure that updates are properly reviewed and approved.
+
+Q2. Why did the conflict in Part 4 happen, and how could a team reduce such conflicts?
+The conflict in Part 4 happened because two branches modified the same part of a file differently. Git could not automatically decide which changes should be kept, so manual conflict resolution was required. A team can reduce such conflicts by communicating regularly, dividing tasks clearly, and avoiding editing the same files at the same time. Developers should also pull the latest changes from the main branch frequently.
+
+Q3. What would be lost if people merged straight into main without a pull request?
+If developers merged changes directly into the main branch without a pull request, the team would lose the opportunity to review changes before merging. Potential bugs, mistakes, or security issues might not be identified early. There would also be less discussion and feedback between team members. In addition, the project would have weaker change tracking and accountability.
